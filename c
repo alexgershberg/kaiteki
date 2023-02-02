@@ -18,7 +18,7 @@ if ext not in [".c", ".cpp"]:
 
 
 # Compile
-compile = subprocess.run(["clang++", "-std=c++20", f"{name + ext}", "-o", name])
+compile = subprocess.run(["g++", "-std=c++20", f"{name + ext}", "-o", name])
 if compile.returncode != 0:
     exit(1)
 

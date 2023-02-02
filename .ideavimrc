@@ -2,6 +2,7 @@
 
 " Own settings
 set clipboard=unnamedplus
+set clipboard+=ideaput
 set relativenumber
 set number
 
@@ -31,8 +32,9 @@ set ideastatusicon=gray
 set idearefactormode=keep
 
 """ Mappings --------------------------------
-map <leader>f <Plug>(easymotion-s)
-map <leader>e <Plug>(easymotion-f)
+" map <leader>f <Plug>(easymotion-s)
+" map <leader>e <Plug>(easymotion-f)
+" map <leader>f <Action>
 
 map <leader>d <Action>(Debug)
 map <leader>r <Action>(RenameElement)
