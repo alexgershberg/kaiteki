@@ -1,2 +1,5 @@
 export PATH="$HOME/.local-bin/:$PATH"
 alias gst="git status"
+alias nv="nvim $*"
+
+alias nvedit="nv $HOME/.config/nvim/init.vim" # assuming init.vim is in this location
