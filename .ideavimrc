@@ -5,6 +5,9 @@ set clipboard=unnamedplus
 set clipboard+=ideaput
 set relativenumber
 set number
+" remove bell sound: https://superuser.com/questions/622898/how-to-turn-off-the-bell-sound-in-intellij
+set visualbell
+set noerrorbells
 
 """ Map leader to space ---------------------
 let mapleader=" "
@@ -32,19 +35,6 @@ set ideastatusicon=gray
 set idearefactormode=keep
 
 """ Mappings --------------------------------
-" map <leader>f <Plug>(easymotion-s)
-" map <leader>e <Plug>(easymotion-f)
-" map <leader>f <Action>
-
-map <leader>d <Action>(Debug)
-map <leader>r <Action>(RenameElement)
-map <leader>c <Action>(Stop)
 map <leader>z <Action>(ToggleDistractionFreeMode)
+map <leader>t <Action>(ActivateTerminalToolWindow)
 
-map <leader>s <Action>(SelectInProjectView)
-map <leader>a <Action>(Annotate)
-map <leader>h <Action>(Vcs.ShowTabbedFileHistory)
-map <S-Space> <Action>(GotoNextError)
-
-map <leader>b <Action>(ToggleLineBreakpoint)
-map <leader>o <Action>(FileStructurePopup)
