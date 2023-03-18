@@ -25,10 +25,8 @@ if compile.returncode != 0:
 
 # Run
 run = subprocess.run([f"./{name}"])
-if run.returncode != 0:
-    exit(1)
+print(f"Process finished with exit code {run.returncode}")
+
 
 # Delete
 delete = subprocess.run(["rm", name])
-if delete.returncode != 0:
-    exit(1)
