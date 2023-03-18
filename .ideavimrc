@@ -37,5 +37,5 @@ set idearefactormode=keep
 """ Mappings --------------------------------
 map <leader>z <Action>(ToggleDistractionFreeMode)
 map <leader>t <Action>(ActivateTerminalToolWindow)
-map <leader>r <Action>(Run)
+map <leader>r <Action>(RunClass)
 
