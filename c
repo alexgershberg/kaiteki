@@ -25,7 +25,7 @@ if compile.returncode != 0:
 
 # Run
 run = subprocess.run([f"./{name}"])
-print(f"Process finished with exit code {run.returncode}")
+print(f"\nProcess finished with exit code {run.returncode}")
 
 
 # Delete
