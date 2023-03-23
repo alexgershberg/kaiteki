@@ -38,4 +38,4 @@ set idearefactormode=keep
 map <leader>z <Action>(ToggleDistractionFreeMode)
 map <leader>t <Action>(ActivateTerminalToolWindow)
 map <leader>r <Action>(RunClass)
-
+map <leader>b <Action>(Build)
