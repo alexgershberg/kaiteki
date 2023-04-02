@@ -1,8 +1,10 @@
 export PATH="$HOME/.local-bin/:$PATH"
 alias gst="git status"
 alias nv="nvim $*"
-
 alias nvedit="nv $HOME/.config/nvim/init.vim" # assuming init.vim is in this location
 alias l="ls -lah"
-
 alias rem="nv $HOME/.local-bin/.reminders"
+
+# https://www.freecodecamp.org/news/make-your-vim-smarter-using-ctrlp-and-ctags-846fc12178a4/
+alias ctags="`brew --prefix`/bin/ctags" # Apparently ctags on Mac are different from ctags from brew, so use brew's
+
