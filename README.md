@@ -1,4 +1,4 @@
-# .local-bin - Personal tools & scripts
+# Personal tools & scripts
 
 Must be placed under $HOME/
 
