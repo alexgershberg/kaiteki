@@ -1,0 +1,8 @@
+# Scan local ports
+nc -zvv 127.0.0.1 1-65535 2>&1 | grep succeeded
+
+# https://github.com/dpallot/simple-websocket-server
+# nice repo about simple websocket proxy in python
+
+# https://apple.stackexchange.com/questions/337940/why-is-usr-include-missing-i-have-xcode-and-command-line-tools-installed-moja
+xcrun --show-sdk-path # Get current SDK path, useful for location of C/C++ include headers

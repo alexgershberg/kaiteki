@@ -4,3 +4,5 @@ alias nv="nvim $*"
 
 alias nvedit="nv $HOME/.config/nvim/init.vim" # assuming init.vim is in this location
 alias l="ls -lah"
+
+alias rem="nv $HOME/.local-bin/.reminders"
