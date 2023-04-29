@@ -1,3 +1,4 @@
+""" Deprecated in favor of https://github.com/alexgershberg/compile-run
 #!/usr/bin/env python3
 
 import os
@@ -30,3 +31,4 @@ print(f"\nProcess finished with exit code {run.returncode}")
 
 # Delete
 delete = subprocess.run(["rm", name])
+"""
