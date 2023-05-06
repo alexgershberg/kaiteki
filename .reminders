@@ -10,3 +10,6 @@ xcrun --show-sdk-path # Get current SDK path, useful for location of C/C++ inclu
 # https://www.topbug.net/blog/2012/03/17/generate-ctags-files-for-c-slash-c-plus-plus-source-files-and-all-of-their-included-header-files/
 # Generate ctags with Mac headers for current dir
 ctags -R --c++-kinds=+p --fields=+iaS --extra=+q `xcrun --show-sdk-path`/usr/include . 
+
+# For attaching back to sessions on ubuntu
+tmux attach-session -t 0 
