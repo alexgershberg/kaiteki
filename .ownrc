@@ -5,6 +5,11 @@ alias nvedit="nv $HOME/.config/nvim/init.vim" # assuming init.vim is in this loc
 alias l="ls -lah"
 alias rem="nv $HOME/kaiteki/.reminders"
 
+# https://clang.llvm.org/docs/CommandGuide/clang.html#envvar-C_INCLUDE_PATH,OBJC_INCLUDE_PATH,CPLUS_INCLUDE_PATH,OBJCPLUS_INCLUDE_PATH
+# https://stackoverflow.com/questions/63782683/how-to-add-include-paths-to-clang-globally
+# Might want to make it version agnostic somehow
+export CPLUS_INCLUDE_PATH="${CPLUS_INCLUDE_PATH:+${CPLUS_INCLUDE_PATH}:}/opt/homebrew/cellar/boost/1.82.0_1/include"
+
 # https://www.freecodecamp.org/news/make-your-vim-smarter-using-ctrlp-and-ctags-846fc12178a4/
 alias ctags="`brew --prefix`/bin/ctags" # Apparently ctags on Mac are different from ctags from brew, so use brew's
 
