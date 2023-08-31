@@ -4,6 +4,7 @@ alias nv="nvim $*"
 alias nvedit="nv $HOME/.config/nvim/init.vim" # assuming init.vim is in this location
 alias l="ls -lah"
 alias rem="nv $HOME/kaiteki/.reminders"
+alias clion="open -b com.jetbrains.CLion" # Took this from: https://www.jetbrains.com/help/clion/working-with-the-ide-features-from-command-line.html#toolbox
 
 # https://clang.llvm.org/docs/CommandGuide/clang.html#envvar-C_INCLUDE_PATH,OBJC_INCLUDE_PATH,CPLUS_INCLUDE_PATH,OBJCPLUS_INCLUDE_PATH
 # https://stackoverflow.com/questions/63782683/how-to-add-include-paths-to-clang-globally
