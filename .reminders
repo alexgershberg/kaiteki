@@ -17,3 +17,9 @@ tmux attach-session -t 0
 # https://stackoverflow.com/questions/20598252/how-can-someone-get-the-bssid-of-a-router-without-connecting-to-it
 # See BSSID of wifi routers (sudo is required to see BSSID) 
 sudo airport -s
+
+# Pretty print datetime of file
+date -r file.txt "+%Y-%m-%d--%H-%M-%S"
+
+# Offline rust documentation
+rustup doc
