@@ -23,3 +23,6 @@ date -r file.txt "+%Y-%m-%d--%H-%M-%S"
 
 # Offline rust documentation
 rustup doc
+
+# Make Tor requests with Curl https://www.devdungeon.com/content/making-tor-requests-command-line-curl
+curl --socks5-hostname localhost:9050 http://google.com
