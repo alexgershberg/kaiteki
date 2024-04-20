@@ -26,3 +26,6 @@ rustup doc
 
 # Make Tor requests with Curl https://www.devdungeon.com/content/making-tor-requests-command-line-curl
 curl --socks5-hostname localhost:9050 http://google.com
+
+# netcat with \r\n ending
+nc -c 127.0.0.1 10000
