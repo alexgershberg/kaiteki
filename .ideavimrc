@@ -35,7 +35,10 @@ set ideastatusicon=gray
 set idearefactormode=keep
 
 """ Mappings --------------------------------
+
+" More info at: https://github.com/JetBrains/ideavim#executing-ide-actions
 map <leader>z <Action>(ToggleDistractionFreeMode)
 map <leader>t <Action>(ActivateTerminalToolWindow)
 map <leader>r <Action>(RunClass)
 map <leader>b <Action>(Build)
+map <leader>e <Action>(RenameElement)
