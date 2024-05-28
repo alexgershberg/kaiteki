@@ -42,3 +42,5 @@ map <leader>t <Action>(ActivateTerminalToolWindow)
 map <leader>r <Action>(RunClass)
 map <leader>b <Action>(Build)
 map <leader>e <Action>(RenameElement)
+map <leader>q <Action>(ShowHoverInfo)
+
